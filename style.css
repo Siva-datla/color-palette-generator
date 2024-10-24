@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #0d1117;  /* Dark theme background */
+    color: #c9d1d9;  /* Light text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    padding: 30px;
+    background-color: #161b22;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #58a6ff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #238636;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #2ea043;
+}
+
+/* Palette Styles */
+.palette {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.color-block {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.color-block:hover {
+    transform: scale(1.1);
+}
+
+/* Animation Styles */
+.animation {
+    margin-top: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.animation img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.animation p {
+    font-size: 1.1rem;
+    color: #f0883e;
+}
